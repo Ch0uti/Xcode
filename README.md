@@ -14,7 +14,7 @@ In the *TemplateInfo.plist*, under *Options*
 <key>Identifier</key>
 <string>productName</string>
 ```
-The `productName` determines the filename to create.
+The `productName` determines the filename to create (avoids the filename input).
 
 References:
 - [Creating a "smart" Xcode file template](http://swiftandpainless.com/creating-a-smart-file-template/)
