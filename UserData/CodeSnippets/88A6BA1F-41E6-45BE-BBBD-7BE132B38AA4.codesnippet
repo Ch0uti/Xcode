@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Codable Decimal</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#amount#&gt;String = try container.decode(String.self, forKey: .&lt;#amount#&gt;)
+if let &lt;#amount#&gt; = Decimal(string: &lt;#amount#&gt;String) {
+            self.&lt;#amount#&gt; = &lt;#amount#&gt;
+        } else {
+            throw "Failed to parse &lt;#amount#&gt;: \(&lt;#amount#&gt;String)"
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88A6BA1F-41E6-45BE-BBBD-7BE132B38AA4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Codable for Decimal</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
